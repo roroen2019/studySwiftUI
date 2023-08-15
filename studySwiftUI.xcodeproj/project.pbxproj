@@ -11,9 +11,6 @@
 		4228D7EC2A6D0AFC00A0B76F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228D7EB2A6D0AFC00A0B76F /* ContentView.swift */; };
 		4228D7EE2A6D0AFE00A0B76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4228D7ED2A6D0AFE00A0B76F /* Assets.xcassets */; };
 		4228D7F12A6D0AFE00A0B76F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4228D7F02A6D0AFE00A0B76F /* Preview Assets.xcassets */; };
-		4228D7F92A6DFF2600A0B76F /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228D7F82A6DFF2600A0B76F /* SecondView.swift */; };
-		4228D7FB2A6DFF3D00A0B76F /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228D7FA2A6DFF3D00A0B76F /* SecondViewModel.swift */; };
-		4228D7FD2A6DFF4B00A0B76F /* SecondModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228D7FC2A6DFF4B00A0B76F /* SecondModel.swift */; };
 		4228D8262A70A47700A0B76F /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228D8252A70A47700A0B76F /* ThirdView.swift */; };
 		4228D8282A70A4B000A0B76F /* ThirdViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228D8272A70A4B000A0B76F /* ThirdViewModel.swift */; };
 		4228D82A2A70A4DB00A0B76F /* ThirdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228D8292A70A4DB00A0B76F /* ThirdModel.swift */; };
@@ -27,9 +24,6 @@
 		4228D7EB2A6D0AFC00A0B76F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4228D7ED2A6D0AFE00A0B76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4228D7F02A6D0AFE00A0B76F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4228D7F82A6DFF2600A0B76F /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
-		4228D7FA2A6DFF3D00A0B76F /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
-		4228D7FC2A6DFF4B00A0B76F /* SecondModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondModel.swift; sourceTree = "<group>"; };
 		4228D8252A70A47700A0B76F /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		4228D8272A70A4B000A0B76F /* ThirdViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewModel.swift; sourceTree = "<group>"; };
 		4228D8292A70A4DB00A0B76F /* ThirdModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdModel.swift; sourceTree = "<group>"; };
@@ -69,7 +63,6 @@
 			children = (
 				4228D82F2A74E49500A0B76F /* LifeCycle */,
 				4228D8242A70A46200A0B76F /* mvvm2 */,
-				4228D7F72A6DFEF500A0B76F /* mvvm */,
 				4228D7E92A6D0AFC00A0B76F /* studySwiftUIApp.swift */,
 				4228D7EB2A6D0AFC00A0B76F /* ContentView.swift */,
 				4228D7ED2A6D0AFE00A0B76F /* Assets.xcassets */,
@@ -84,16 +77,6 @@
 				4228D7F02A6D0AFE00A0B76F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		4228D7F72A6DFEF500A0B76F /* mvvm */ = {
-			isa = PBXGroup;
-			children = (
-				4228D7F82A6DFF2600A0B76F /* SecondView.swift */,
-				4228D7FA2A6DFF3D00A0B76F /* SecondViewModel.swift */,
-				4228D7FC2A6DFF4B00A0B76F /* SecondModel.swift */,
-			);
-			path = mvvm;
 			sourceTree = "<group>";
 		};
 		4228D8242A70A46200A0B76F /* mvvm2 */ = {
@@ -185,10 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4228D7FB2A6DFF3D00A0B76F /* SecondViewModel.swift in Sources */,
-				4228D7FD2A6DFF4B00A0B76F /* SecondModel.swift in Sources */,
 				4228D8312A74E4AE00A0B76F /* LifeCycleTest.swift in Sources */,
-				4228D7F92A6DFF2600A0B76F /* SecondView.swift in Sources */,
 				4228D8282A70A4B000A0B76F /* ThirdViewModel.swift in Sources */,
 				4228D7EC2A6D0AFC00A0B76F /* ContentView.swift in Sources */,
 				4228D82C2A70B9D600A0B76F /* CustomListCell.swift in Sources */,

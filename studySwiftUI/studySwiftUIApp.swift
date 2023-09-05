@@ -11,7 +11,7 @@ import SwiftUI
 struct studySwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            LifeCycleTest()
+            ThirdView()
         }
     }
 }

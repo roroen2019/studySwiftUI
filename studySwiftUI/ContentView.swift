@@ -77,7 +77,7 @@ struct ScreenView: View {
             
             NavigationLink {
 //                SecondScreenview()
-                SecondView()
+//                SecondView()
             } label: {
                 ContinueButton(buttonColor: .accentColor, title: "Show Alert!")
             }

@@ -25,7 +25,7 @@ final class ThirdViewModel: ObservableObject {
         // 알림뷰는 뷰이므로 메인쓰레드에서동작해야된다.
         // 각 guard문 의 알림뷰를 위해 설정.
         DispatchQueue.main.async {
-            let userUrlString = "https://jsonplaceholder.typicode.com/users"
+            let userUrlString = "https://jsonplaceholder.typicode.com/users11asdf"
             guard let url = URL(string: userUrlString) else {
                 self.hasError = true
                 self.error = .failedUrl
@@ -67,7 +67,7 @@ final class ThirdViewModel: ObservableObject {
     
     // combine 적용
     func fetchUserNew() {
-        let userUrlString = "https://jsonplaceholder.typicode.com/users"
+        let userUrlString = "https://jsonplaceholder.typicode.com/users222"
         guard let url = URL(string: userUrlString) else {
             return
         }

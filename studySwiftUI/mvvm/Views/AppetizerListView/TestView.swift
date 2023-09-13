@@ -44,3 +44,16 @@ struct TestView_Previews: PreviewProvider {
         TestView()
     }
 }
+
+struct TestUnit {
+    func calculateTip(enter: Double, tip: Double) -> Double? {
+        guard enter >= 0, tip >= 0 else {
+            return nil
+        }
+        
+        let tipPercent = tip / 100
+        
+        return enter * tipPercent
+        
+    }
+}
